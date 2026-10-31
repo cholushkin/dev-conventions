@@ -81,3 +81,4 @@ Scenes/
 - **Nesting & Variants:** Keep prefab nesting shallow. Use variants only for controlled, meaningful differences—avoid deep variant inheritance chains.
 - **Isolation:** Keep authored assets and generated/procedural content separated.
 - **Debug Cleanup:** Keep debug/testing assets isolated within the `Debug/` or `DevScenes/` context.
+- **Centralized Default:** Place shared assets (`prefabs/textures/fonts/materials`) and prefabs in a centralized root folder (e.g., `Libs/GameLib/Prefabs/`). This ensures they are immediately discoverable for users without requiring them to dig through deep feature hierarchies. For highly isolated or complex modules we allow *Feature-Specific Override*, developers may choose to colocate prefabs inside that feature's specific folder (e.g., `Runtime/FeatureName/Prefabs`).
