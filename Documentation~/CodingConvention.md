@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
     - No spaces inside parentheses `()` or brackets `[]`.
     - **Self-Documenting Code over Comments:** Write descriptive class, method, and variable names so the code explains itself. Avoid `/// <summary>` blocks on obvious code. Reserve XML comments strictly for shared core tools/libraries (`Libs/`) or exceptionally complex algorithms where intent isn't immediately clear from the signature.
 - **Regions:** Use `#region` strictly to group distinct structural blocks (e.g., Properties, Events, Unity Lifecycle, Implementation) to keep long files highly navigably structured. Do not use them inside methods.
+- **File Headers (TODOs/Ideas):** At the absolute top of *every* file, include your todos/ideas section. One items per line : `// todo: different sorting modes`, `idea: BG for overlays` 
 
 ### Clean Code & Performance Principles
 - **Early Returns & Guard Clauses:** Eliminate nesting depth immediately. Check for invalid states or null parameters at the absolute top of the method.

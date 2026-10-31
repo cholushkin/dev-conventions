@@ -28,6 +28,7 @@ ProjectRoot/
 Assets/
 ├── Game/            # Project-specific code and assets
 │   ├── Runtime/
+│   ├── DataAndSettings/
 │   └── Editor/
 └── Libs/            # Shared internal modules and external plugins
     ├── FrameworkA/
