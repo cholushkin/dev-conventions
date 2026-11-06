@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: GameLib::GameLib.GameLibModuleManifest
   Name: DevConventions
   Version: 1.0.0a
-  Icon: {fileID: 21300000, guid: f374ae8c8695c2f4681822797d48d661, type: 3}
+  Icon: {fileID: 21300000, guid: f07c9fc3ccd0dba4b8cc6136cd272716, type: 3}
   Description: description
   Tags:
   - architecture
